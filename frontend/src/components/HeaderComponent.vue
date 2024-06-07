@@ -1,10 +1,9 @@
-<!-- eslint-disable vue/multi-word-component-names -->
 <script setup>
 
 </script>
 
 <template>
-  <div class="w-full h-14 flex flex-row justify-between items-center">
+  <div class="w-full h-14 mt-6 flex flex-row justify-between items-center">
     <a href="/" class="text-[52px]">FASCO</a>
     <ul class="w-[60%] flex flex-row justify-around items-center">
       <li class="text-[#484848] text-[16px] ">

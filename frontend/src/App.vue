@@ -1,15 +1,15 @@
 <template>
   <MainContainer>
-    <Header/>
+    <HeaderComponent/>
   </MainContainer>
 </template>
 
 <script>
 import {defineComponent} from "vue";
-import Header from "@/components/Header.vue";
+import HeaderComponent from "@/components/HeaderComponent.vue";
 import MainContainer from "@/components/MainContainer.vue";
 
 export default defineComponent({
-  components: {MainContainer, Header}
+  components: {MainContainer, HeaderComponent}
 })
 </script>
